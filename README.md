@@ -5,7 +5,7 @@ For this simple full-stack development, we separate the repositories into ~/Fron
 
 The Client-Server architecture shall includes:
 
-#### FrontEnd: 
+### FrontEnd: 
 	* To develop static web pages using HTML, CSS
 	* To include the JavaScript codes to improve the website functionality. 
 	* To include D3 for the data visualisation in the browser. 
@@ -14,7 +14,7 @@ The Client-Server architecture shall includes:
 
 Once we learnt about the HTML, CSS, and JavaScripts together with the ready-made JavaScript framework: Vue, ReactJS, AngularJS and etc, and running the site locally, we might begin to wonder how to deploy the application. That's why the Express sever hosted at Heroku cloud will be helpful here.
 
-#### BackEnd**: 
+### BackEnd: 
 	* Here are the high-level steps to host a simple site on the Heroku Cloud:
 		* Setting up the backend server using Node.js.
 		* To setup the Heroku, Git, and npm.
@@ -27,9 +27,9 @@ Once we learnt about the HTML, CSS, and JavaScripts together with the ready-made
 	* Reference: 
 		[How to deploy your app to the web using Express.js and Heroku](https://www.freecodecamp.org/news/how-to-deploy-your-site-using-express-and-heroku/)
 
-#### Things to note:
+### Things to note:
 
-##### Node.js
+#### Node.js
 Node.js is the runtime environment based on the chrome V8 engine for executing the JavaScript at the server side. Similarly, the browser can be said as the runtime environment to execute the HTML, CSS or JS.  
 
 Node.js is neither a programming language nor a framework.
@@ -43,7 +43,7 @@ Node.js is a platform used to build the backend services like API, web service, 
 | QueryString | (requestHandle.js) To handle the parameters sent by the browser via the GET/POST, and to convert the parameters into JS objects. |
 | FileSystem | To read the file on server side) |
 
-##### Express 
+#### Express 
 Express is a framework based on Node.js used for building web applcation
 
 
