@@ -5,7 +5,7 @@ For this simple full-stack development, we separate the repositories into ~/Fron
 
 The Client-Server architecture shall includes:
 
-* **FrontEnd**: 
+#### *FrontEnd: 
 	* To develop static web pages using HTML, CSS
 	* To include the JavaScript codes to improve the website functionality. 
 	* To include D3 for the data visualisation in the browser. 
@@ -14,7 +14,7 @@ The Client-Server architecture shall includes:
 
 Once we learnt about the HTML, CSS, and JavaScripts together with the ready-made JavaScript framework: Vue, ReactJS, AngularJS and etc, and running the site locally, we might begin to wonder how to deploy the application. That's why the Express sever hosted at Heroku cloud will be helpful here.
 
-* **BackEnd**: 
+#### *BackEnd**: 
 	* Here are the high-level steps to host a simple site on the Heroku Cloud:
 		* Setting up the backend server using Node.js.
 		* To setup the Heroku, Git, and npm.
@@ -27,7 +27,7 @@ Once we learnt about the HTML, CSS, and JavaScripts together with the ready-made
 	* Reference: 
 		[How to deploy your app to the web using Express.js and Heroku](https://www.freecodecamp.org/news/how-to-deploy-your-site-using-express-and-heroku/)
 
-* **Things to note**:
+#### Things to note:
 	* Node.js
 Node.js is the runtime environment based on the chrome V8 engine for executing the JavaScript at the server side. Similarly, the browser can be said as the runtime environment to execute the HTML, CSS or JS.  
 
@@ -37,7 +37,6 @@ Node.js is a platform used to build the backend services like API, web service, 
 
 | Modules | Description|
 |   :----:    |    :----:    |
-| --------------|--------------|
 | HTTP | (server.js) For web service. E.g: var http = require("http"); |
 | URL  | (router.js) For browser to send request and acquire the data from the backend. |
 | QueryString | (requestHandle.js) To handle the parameters sent by the browser via the GET/POST, and to convert the parameters into JS objects. |
@@ -54,24 +53,24 @@ The concept of the development of NUS Money is illustrated as below:
 
 <div align=center><img src="doc/img/concept.png"></div>
 
-** Step 1 ** 
+#### Step 1 
 1. In general, the static files (html, css, ps) are stored at the server side.
 2. The browser has no idea how the website looks like and doesn't contain any information of the website.
 3. Once the user key in the website URL at the browser, the browser (client) will start look for the website and the server (node.js) that hosting the website will response to this request. It could be other type of server, for our case (NUS Money) will be using node.js.
 
-** Step 2 ** 
+#### Step 2 
 1. The nodes.js will response to the browser (client) request and sending the static files (html, css, js) to the browser.
 2. The browser has the capability to read the static files and display the data accordingly.
 
-** Step 3 **
+#### Step 3
 1. When someone clicks a "button" or an object on the website, the browser has no idea what is suppose to happen. It only catches the action perform by user through a JavaScript handler, pick up the value from the input field (e.g. the first name and the last name enter by the user).
 2. The browser emit a WebSocket message using the WebSocket client connected to the server. WebSocket is a protocol that enables the interaction between a web browser and a server. 
 
-** Step 4 **
+#### Step 4
 1. The server component of the WebSocket connection receives the message and process the needs accordingly - you may imagine this similar to the transaction processor. 
 2. This is where the Express + Node.js come in to tell how are we going to handle the received API request. Similar to the kitchen helper received the order, start preparing the ingredients needed and pass it to the chef to tell what need to be cooked. 
 
-** Step 5 & Step 6**
+#### Step 5 & Step 6
 1. In some cases we may not need the dbapi to handle the simple application. However, we're not sure whether there is adapter in the node.js to the SQL. Otherwise, we can keep the database at the same layer / container. 
 
 Reference:
@@ -83,26 +82,26 @@ Reference:
 ##  What we have completed
 
 ### FrontEnd 
-** To Do **
+#### To Do
 
 - HTML [shall be completed in Connecting to FrontEnd Homework]
 - JS [shall be completed in Connecting to FrontEnd Homework]
 - CSS [shall be completed in Connecting to FrontEnd Homework]
 
-** Homework of PC2 - Connecting to the FrontEnd **
+#### Homework of PC2 - Connecting to the FrontEnd
 
-This homework is a starter of the NUS Money. Once we have completed this part, the FrontEnd of the NUS money is completed expect ** to include D3 for the data visualisation in the browser. ** 
+This homework is a starter of the NUS Money. Once we have completed this part, the FrontEnd of the NUS money is completed expect **to include D3 for the data visualisation in the browser.** 
 
 
 ### BackEnd 
-** To Do **
+#### To Do
 
 - API Documentation - To tell the services defined at the backed (Postman)[Done]
 - Define the API - Response from the Server (Express.js)
 - Database Schema
 - Deploy to Heroku.
 
-** Explanation on the API & Postman **
+#### Explanation on the API & Postman
 
 The API listed in the Postman can be considered as a kind of documentation  to tell the developers what are the services have been defined at the backend (node.js & Express). Meaning, once the API endpoint is call in the JavaScript, example:  
 
@@ -124,7 +123,7 @@ What we need to do with the API would be on the Express or node.js only. Not the
 Due to the limitation of the time, I believe he will give us more samples for the Database and Express part during the remaining 2 days. We can consider to use that if any.
 
 
-** Sample code during the Day 1 of Connecting the FrontEnd to backEnd **
+#### Sample code during the Day 1 of Connecting the FrontEnd to backEnd
 
 The code provided by Dixant gave us a very good direction of how to fetch the data using the API. However, the day 1 class only guide us how to use the API to fetch the data to and from the server (Heroku cloud). We have not learned how Jon & Dixant use the Express to handle the API request. 
 
