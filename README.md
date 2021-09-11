@@ -24,7 +24,8 @@ Once we learnt about the HTML, CSS, and JavaScripts together with the ready-made
 	* To build the API using Node.js and Express.
 	* To build the SQL Databases, schemas and queries. 
 	* To connect the Node.js to MySQL Databases.
-	* Reference: 
+
+Reference: 
 		[How to deploy your app to the web using Express.js and Heroku](https://www.freecodecamp.org/news/how-to-deploy-your-site-using-express-and-heroku/)
 
 ### Things to note:
@@ -75,8 +76,7 @@ The concept of the development of NUS Money is illustrated as below:
 1. In some cases we may not need the dbapi to handle the simple application. However, we're not sure whether there is adapter in the node.js to the SQL. Otherwise, we can keep the database at the same layer / container. 
 
 Reference:
-[Why The Hell Would I Use Node.js?]
-(https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js)
+[Why The Hell Would I Use Node.js?](https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js)
 
 
 
@@ -181,7 +181,7 @@ server.listen(3000, () => {
 
 ```
 
-Therefore, these ready-made JavaScript framework is more preferable and lightweight.  
+Therefore, these ready-made JavaScript framework (VUE, Express) is more preferable and lightweight.  
 
 
 
