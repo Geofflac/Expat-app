@@ -11,7 +11,15 @@
         <title>Expat$</title>
     </head>
     <body>
-        <p class="text-center fs-1 fw-bold">EXPAT$</p>
+        <div class="text-center">
+            <img
+                class="mb-4"
+                src="/expats-app/images/expat_full_logo.png"
+                alt=""
+                width="300"
+                height="75"
+            />
+        </div>
         <!--  this it the header -->
         <div class="container">
             <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
@@ -23,15 +31,15 @@
                     </svg>
                 </a>
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="/FrontEnd/html/" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="/expats-app/" class="nav-link px-2 link-dark">Home</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark">Forum</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark">Blog</a></li>
-                    <li><a href="/FrontEnd/html/product.html" class="nav-link px-2 link-dark">Product</a></li>
-                    <li><a href="/FrontEnd/html/about.html" class="nav-link px-2 link-dark">About</a></li>
+                    <li><a href="/expats-app/product.html" class="nav-link px-2 link-dark">Product</a></li>
+                    <li><a href="/expats-app/about.html" class="nav-link px-2 link-dark">About</a></li>
                 </ul>
                 <div class="col-md-3 text-end">
-                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
-                    <button type="button" class="btn btn-primary">Sign-up</button>
+                    <button type="button" class="btn btn-outline-primary me-2" id="btn-login" onclick="login()">Log in</button>
+                    <button type="button" class="btn btn-primary" id="btn-logout" onclick="logout()">Log out</button>
                 </div>
             </header>
         </div>
@@ -40,7 +48,7 @@
         <!-- Main content here -->
         <p class="text-center fs-2 fw-bold">About</p>
         <div class="text-center">
-            <img src="/FrontEnd/html/images/NUS.jpg" class="img-fluid" alt="NUS" width="400" height="500">
+            <img src="/expats-app/images/NUS.png" class="img-fluid imagetext" alt="NUS" width="400" height="500">
         </div>
         <p class="text-center">NUS FINTECH SG, PC2 project Batch 12 - team 4</p>
         <p class="text-center">Victor, Yap Fung, Geoffrey, Chun Yap​</p>

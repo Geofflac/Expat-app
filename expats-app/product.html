@@ -4,14 +4,22 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-        <!-- <link href="index.css" rel="stylesheet"> -->
+        <link href="index.css" rel="stylesheet">
         <!-- if need cool logo https://fontawesome.com/ <script src="https://kit.fontawesome.com/ca8a1988f6.js" crossorigin="anonymous"></script> -->
         
         
         <title>Expat$</title>
     </head>
     <body>
-        <p class="text-center fs-1 fw-bold">EXPAT$</p>
+        <div class="text-center">
+            <img
+                class="mb-4"
+                src="/expats-app/images/expat_full_logo.png"
+                alt=""
+                width="300"
+                height="75"
+            />
+        </div>
         <!--  this it the header -->
         <div class="container">
             <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
@@ -23,15 +31,15 @@
                     </svg>
                 </a>
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="/FrontEnd/html/" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="/expats-app/" class="nav-link px-2 link-dark">Home</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark">Forum</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark">Blog</a></li>
-                    <li><a href="/FrontEnd/html/product.html" class="nav-link px-2 link-dark">Product</a></li>
-                    <li><a href="/FrontEnd/html/about.html" class="nav-link px-2 link-dark">About</a></li>
+                    <li><a href="/expats-app/product.html" class="nav-link px-2 link-dark">Product</a></li>
+                    <li><a href="/expats-app/about.html" class="nav-link px-2 link-dark">About</a></li>
                 </ul>
                 <div class="col-md-3 text-end">
-                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
-                    <button type="button" class="btn btn-primary">Sign-up</button>
+                    <button type="button" class="btn btn-outline-primary me-2" id="btn-login" onclick="login()">Log in</button>
+                    <button type="button" class="btn btn-primary" id="btn-logout" onclick="logout()">Log out</button>
                 </div>
             </header>
         </div>
@@ -39,7 +47,7 @@
 
         <!-- Main content here -->
         <p class="text-center fs-2 fw-bold">Product comparison</p>
-        <p id="apitest">test</p>
+        <p id="apitest"></p>
         <!-- End of main content -->
 
         <!-- This is the footer -->
@@ -96,8 +104,8 @@
         <script src="product.js"></script>
         
         <!-- Auth0  -->
-        <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
-        <script src="public/js/app.js"></script>
+        <!-- <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
+        <script src="public/js/app.js"></script> -->
         <!-- Script for Bootstrap placed at the end of the body -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     </body>

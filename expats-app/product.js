@@ -8,7 +8,15 @@ var requestOptions = {
   redirect: 'follow'
 };
 
+
 fetch("https://api.ocbc.com:8243/Deposit_Accounts/1.0", requestOptions)
   .then(response => response.text())
-  .then(result => console.log(result))
+  .then( result => {
+    console.log(JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0]);
+    type = 'Type of account : ' + JSON.parse(result).CASAAccountsList[0].categoryName;
+    product = 'Product : ' + JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0].productName;
+    benefits = JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0].benefits;
+    document.getElementById('apitest').innerHTML = `${type} <div> ${product} </div> ${benefits}`;
+  })
   .catch(error => console.log('error', error));
+
