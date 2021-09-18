@@ -12,8 +12,8 @@ var requestOptions = {
 fetch("https://api.ocbc.com:8243/Deposit_Accounts/1.0", requestOptions)
   .then(response => response.text())
   .then( result => {
-    console.log(JSON.parse(result));
-    console.log(JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0]);
+    // console.log(JSON.parse(result));
+    // console.log(JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0]);
     bank = "ocbc";
     document.getElementById('api_bank').innerHTML = `<img src="/expats-app/images/${bank}.png" class="img-fluid" alt="${bank}" width="200" height="200">`;
     type = JSON.parse(result).CASAAccountsList[0].categoryName;
@@ -24,4 +24,14 @@ fetch("https://api.ocbc.com:8243/Deposit_Accounts/1.0", requestOptions)
     document.getElementById('api_benefit').innerHTML = `${benefits}`;
   })
   .catch(error => console.log('error', error));
+
+  
+  var requestOptions = {
+    method: 'GET',
+    redirect: 'follow'
+  };
+  
+  fetch("localhost:3000/apihello", requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(result));
 
