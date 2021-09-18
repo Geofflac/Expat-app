@@ -30,8 +30,8 @@ fetch("https://api.ocbc.com:8243/Deposit_Accounts/1.0", requestOptions)
     method: 'GET',
     redirect: 'follow'
   };
-  
-  fetch("localhost:3000/apihello", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result));
 
+  fetch("http://localhost:3000/apideposit", requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(JSON.parse(result)))
+    .catch(error => console.log('error', error));

@@ -9,13 +9,15 @@ const app = express();
 // This is to tell that the body of of post will be in JSON format and will transform in JS
 const { response, request } = require('express');
 server = express();
+const cors = require('cors');
 // This is to tell that the body of of post will be in JSON format and will transform in JS
 server.use(express.json());
-
+server.use(cors());
 router = express.Router();
 
 router.get('/apihello', (request, response) => {
-    response.status(200).send("Hello!");
+  console.log(request);  
+  response.status(200).send("Hello!");
 } );
 
 
