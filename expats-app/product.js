@@ -12,11 +12,14 @@ var requestOptions = {
 fetch("https://api.ocbc.com:8243/Deposit_Accounts/1.0", requestOptions)
   .then(response => response.text())
   .then( result => {
+    console.log(JSON.parse(result));
     console.log(JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0]);
-    type = 'Type of account : ' + JSON.parse(result).CASAAccountsList[0].categoryName;
-    product = 'Product : ' + JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0].productName;
+    type = JSON.parse(result).CASAAccountsList[0].categoryName;
+    document.getElementById('api_type').innerHTML = `${type}`;
+    product = JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0].productName;
+    document.getElementById('api_product').innerHTML = `${product}`;
     benefits = JSON.parse(result).CASAAccountsList[0].subCategoryList[0].product[0].benefits;
-    document.getElementById('apitest').innerHTML = `${type} <div> ${product} </div> ${benefits}`;
+    document.getElementById('api_benefit').innerHTML = `${benefits}`;
   })
   .catch(error => console.log('error', error));
 
