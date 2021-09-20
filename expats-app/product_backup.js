@@ -8,6 +8,8 @@ var requestOptions = {
   redirect: 'follow'
 };
 
+console.log(myHeaders);
+
 
 fetch("https://api.ocbc.com:8243/Deposit_Accounts/1.0", requestOptions)
   .then(response => response.text())
