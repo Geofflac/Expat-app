@@ -46,14 +46,14 @@
         <!-- End of the header -->
 
         <!-- Main content here -->
-        <p class="text-center fs-2 fw-bold">Product comparison</p>
-        <div class="text-center">
-        <button type="button" class="btn btn-primary">Saving account</button>
-        <button type="button" class="btn btn-primary" onclick="deposit()">Deposit account</button>
-        <button type="button" class="btn btn-primary">Credit card</button>
-    </div>
-
-    <div class="text-center" id="prod_result"></div>
+        <p class="product_title text-center fs-4 fw-bold" >Bank</p>
+        <p id="api_bank" class="text-center"></p>
+        <p class="product_title text-center fs-4 fw-bold" >Type of account</p>
+        <p id="api_type" class="text-center"></p>
+        <p class="product_title text-center fs-4 fw-bold" >Product</p>
+        <p id="api_product" class="text-center"></p>
+        <p class="product_title text-center fs-4 fw-bold" >Benefits</p>
+        <p id="api_benefit"></p>
 
         <!-- End of main content -->
 
@@ -108,7 +108,7 @@
             </footer>
         </div>
         <!-- End of the footer -->
-        <script src="product.js"></script>
+        <script src="deposit_uob.js"></script>
         
         <!-- Auth0  -->
         <!-- <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
