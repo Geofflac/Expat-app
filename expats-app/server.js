@@ -3,6 +3,8 @@ const { join } = require("path");
 const app = express();
 
 
+
+
 // ------ Geoffre 15/09 try to install API  ----
 // -------- Start ----------
 
@@ -14,6 +16,10 @@ const cors = require('cors');
 server.use(express.json());
 server.use(cors());
 router = express.Router();
+
+// try geoffrey data base
+const user = require("./user");
+server.use(user.router);
 
 router.get('/apihello', (request, response) => {
   console.log(request);  
@@ -367,6 +373,9 @@ server.listen(3000, () => console.log("API running on port 3000"));
 
 
 // ------ End ------------
+
+
+// YAP fung AUTH0 try
 
 // Serve static assets from the /public folder
 app.use(express.static(join(__dirname, "public")));
