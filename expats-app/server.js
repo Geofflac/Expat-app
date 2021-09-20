@@ -33,7 +33,325 @@ deposit =[{
     bank: "uob",
     account: "Deposit Accounts",
     product: "Time Deposit (Fixed Deposit)",
-    benefit: "many many"
+    benefit: `<table class="responsive-table-rates table table-striped table-bordered" style="text-align: center;">
+    <tbody>
+        <tr>
+            <td style="background-color: #002265; text-align: center; color: #ffffff;">Deposit Range<br>&nbsp;(% p.a)</td>
+            <td style="background-color: #002265; text-align: center; color: #ffffff;">Below<br>S$50,000</td>
+            <td style="background-color: #002265; text-align: center; color: #ffffff;">S$50,000 -<br>S$249,999</td>
+            <td style="background-color: #002265; text-align: center; color: #ffffff;">S$250,000 -<br>S$499,999</td>
+            <td style="background-color: #002265; text-align: center; color: #ffffff;">S$500,000 -<br>S$999,999</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>
+                <p><strong>1 Mth</strong></p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>2 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>3 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>4 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>5 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>6 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+            <td>
+                <p>0.0500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>7 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>8 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>9 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+            <td>
+                <p>0.1000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>10 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>11 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>12 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+            <td>
+                <p>0.1500</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>13 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>14 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>15 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>18 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>24 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+            <td>
+                <p>0.2000</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>36 Mths</strong></p>
+            </td>
+            <td>
+                <p>0.5000</p>
+            </td>
+            <td>
+                <p>0.5000</p>
+            </td>
+            <td>
+                <p>0.5000</p>
+            </td>
+            <td>
+                <p>0.5000</p>
+            </td>
+        </tr>
+    </tbody>
+</table>`
   }
 ];
 
