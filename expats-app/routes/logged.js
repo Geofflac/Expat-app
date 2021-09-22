@@ -32,7 +32,13 @@ router.get('/deposit_ocbc', secured(), function (req, res, next) {
   res.render('deposit_ocbc.html');
 });
 
-// Geoffrey test
+// Geoffrey add-on
+// data base
+const user = require("./user");
+router.use(user.router);
+
+
+// Back end API
 router.get('/apihello', (request, response) => {
   response.status(200).send("Hello!")});
 
