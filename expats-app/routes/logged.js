@@ -4,7 +4,8 @@ var router = express.Router();
 
 /* GET user logged-in HTML. */
 router.get('/logged', secured(), function (req, res, next) {
-  res.render('logged.html');
+  console.log(req.user);
+  res.render('logged.html',{userinfo: req.user});
 });
 
 /* GET user Product  HTML. */

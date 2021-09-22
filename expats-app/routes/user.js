@@ -18,8 +18,9 @@ router.get("/user/all", (request, response) => {
 });
 
 router.get("/user/by-email", (request, response) => {
-  if (request.query.email == null || request.query.email.length == 0) {
+  if (request.query.email == null || request.query.email.length == 0) {  
     response.status(400).send("Invalid email passed in the parameters");
+    return
   }
 
   // let user = data.get_user_by_user_id(request.query.uid);
@@ -34,12 +35,16 @@ router.get("/user/by-email", (request, response) => {
   });
 });
 
-router.post("/add-user", (request, response) => {
+router.post("/adduser", (request, response) => {
+  console.log("add-user...");
+  //require body-parser for post
+  // example: server.use(express.json());
+  
   let user = request.body;
   if (JSON.stringify(user) === "{}") {
     response.status(400).send("Request's body content is invalid!");
   }
-
+  console.log("user parsed"+user+",");
   database.connection.query(
     `insert into user (firstname, lastname, phone, email) 
     values ('${request.body.firstname}', '${request.body.lastname}',
@@ -53,6 +58,8 @@ router.post("/add-user", (request, response) => {
       }
     }
   );
+
+  console.log("post end");
 });
 
 module.exports = { router };
