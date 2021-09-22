@@ -17,6 +17,23 @@ router.get('/about', secured(), function (req, res, next) {
   res.render('about.html');
 });
 
+/* GET banklist HTML. */
+router.get('/banklist', secured(), function (req, res, next) {
+  res.render('banklist.html');
+});
+
+/* GET UOB HTML. */
+router.get('/deposit_uob', secured(), function (req, res, next) {
+  res.render('deposit_uob.html');
+});
+
+/* GET banklist HTML. */
+router.get('/deposit_ocbc', secured(), function (req, res, next) {
+  res.render('deposit_ocbc.html');
+});
+
+
+
 // /* GET user profile. */
 // router.get('/logged', secured(), function (req, res, next) {
 //   const { _raw, _json, ...userProfile } = req.user;

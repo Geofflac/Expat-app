@@ -11,7 +11,7 @@
         <title>Expat$ Product</title>
     </head>
     <body>
-        <script src="js/product.js"></script>
+        <script src="/js/product.js"></script>
         <div class="text-center">
             <img
                 class="mb-4"
@@ -47,11 +47,29 @@
         <!-- End of the header -->
 
         <!-- Main content here -->
-        <p class="text-center fs-2 fw-bold">Product comparison</p>
+
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <div class="text-center">
+              <h1 class="display-5 fw-bold">Product Comparison</h1>
+              <p class="text-center fs-5">
+                  First time come to Singapore? Worry about the financial services? <br>
+                  Here are your solutions... <br>
+              </p>
+              <button class="btn btn-primary btn-lg" type="button">Saving account</button>
+              <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='/banklist'">Deposit account</button>
+              <button type="button" class="btn btn-primary btn-lg">Deposit account</button>
+            </div>
+          </div>
+
+        
+        <!-- <p class="text-center fs-2 fw-bold">Product comparison</p>
         <div class="text-center">
         <button type="button" class="btn btn-primary">Saving account</button>
-        <button type="button" class="btn btn-primary" onclick="getOCBCDeposit()">Deposit account</button>
-        <button type="button" class="btn btn-primary">Credit card</button>
+        <button type="button" class="btn btn-primary" onclick="deposit()">Deposit account</button>
+
+
+        <button type="button" class="btn btn-primary">Credit card</button> -->
     </div>
 
     <div class="text-center" id="prod_result"></div>
@@ -109,7 +127,7 @@
             </footer>
         </div>
         <!-- End of the footer -->
-        
+        <script src="/js/product.js"></script>
         
         <!-- Auth0  -->
         <!-- <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
