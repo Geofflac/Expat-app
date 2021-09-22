@@ -1,28 +1,21 @@
-//const fetch = require('node-fetch');
-//const { Headers } = fetch;
+function deposit() {
+  var requestOptions = {
+    method: 'GET',
+    redirect: 'follow'
+  };
 
-var myHeaders = new Headers();
-myHeaders.append("Authorization", "Bearer 1e61cb29-a8a4-3c8a-abc7-6d5f2bca291d");
-
-var requestOptions = {
-  method: 'GET',
-  headers: myHeaders,
-  redirect: 'follow'
-};
-
-function getOCBCDeposit() {
-  fetch("https://api.ocbc.com:8243/Deposit_Accounts/1.0/*", requestOptions)
+  fetch("http://localhost:3000/apideposit", requestOptions)
     .then(response => response.text())
     .then(result => {
-        let accountDetailsObj = JSON.parse(result);
-        accountDetailsObj = accountDetailsObj["CASAAccountsList"][0]["subCategoryList"][0]["product"][0];
-        let htmlContent = "";
-        for (const [key, value] of Object.entries(accountDetailsObj)) {
-            console.log(`${key}: ${value}`);
-            htmlContent += `${value}`;
-          }
-        console.log(accountDetailsObj);
-        document.getElementById('prod_result').innerHTML = htmlContent;
+      depositARR = JSON.parse(result);
+      console.log(depositARR);
+      let text = "";
+      depositARR.forEach((item) => {
+        console.log(item.bank);
+        text += `<a href="/deposit_${item.bank}"><img src="/images/${item.bank}.png" class="img-fluid" alt="${item.bank}" width="200" height="200"></a>`;
+      });
+      console.log(text);
+      document.getElementById('prod_result').innerHTML = text;
     })
-    .catch(error => console.log('error', error));
+    .catch(error => console.log('error', error));;
 }
