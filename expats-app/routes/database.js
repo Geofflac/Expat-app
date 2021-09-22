@@ -25,26 +25,6 @@ connection.connect((errors) => {
     }
 });
 
-// connection.query("select * from user", (errors, results) => {
-
-//     if (errors) {
-
-//         console.log(errors);
-//     } else {
-//         console.log(results);
-//     }
-
-//     console.log(results);
-// })
-
-// connection.query("delete", (errors, results) => {
-//     if (errors) {
-//       console.log(errors);
-//     } else {
-//       console.log(results);
-//     }
-//   });
-
 // Export the connection object so that it could be used in other code files.
 module.exports = {
     connection,
