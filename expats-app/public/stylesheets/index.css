@@ -14,3 +14,8 @@ body {
 .product_title {
   color: #62ADE7;
 }
+
+#userinfo {
+  color: #62ADE7;
+  padding-right: 5px;
+}
