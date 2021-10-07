@@ -16,3 +16,7 @@ function deposit() {
     })
     .catch(error => console.log('error', error));;
 }
+
+function token () {
+  document.getElementById('prod_result').innerHTML = "Number of token here => connection to METAMASK required"
+}
