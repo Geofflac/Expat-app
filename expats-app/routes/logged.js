@@ -413,17 +413,29 @@ router.get('/apideposit', (request, response) => {
       response.status(200).send(finaldeposit)
     
     } );
-    
 
-
-
-// /* GET user profile. */
-// router.get('/logged', secured(), function (req, res, next) {
-//   const { _raw, _json, ...userProfile } = req.user;
-//   res.render('logged.html', {
-//     userProfile: JSON.stringify(userProfile, null, 2),
-//     title: 'Profile page'
-//   });
-// });
+router.get('/token', (request, response) => {
+    account = request.query.address;
+    var requestOptions = {
+        method: 'GET',
+        redirect: 'follow'
+    };
+      
+    fetch(`https://api-ropsten.etherscan.io/api?module=account&action=tokentx&address=${account}&apikey=JE77AXXXFSNZ4T357K4HNKJ9DRRRPP53YZ`, requestOptions)
+        .then(response => response.text())
+        .then(result => {
+            let tokenData = JSON.parse(result);
+            tokenName = tokenData.result[0].tokenName;
+            tokenSymbol = tokenData.result[0].tokenSymbol;
+            tokenValue = (tokenData.result[0].value)/1000000000000000000;
+            tokenResponse = {
+                nameToken: tokenName,
+                symboleToken: tokenSymbol,
+                qtyToken: tokenValue
+            }
+    })
+    .catch(error => console.log('error', error));
+    response.status(200).send(tokenResponse);
+});
 
 module.exports = router;

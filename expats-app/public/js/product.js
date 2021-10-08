@@ -29,5 +29,24 @@ function token() {
 async function Account() {
   const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
   const account = accounts[0];
-  document.getElementById('prod_result').innerHTML = account;
+  text =""
+  text += `<p>Account address : ${account}</p>`;
+
+  var requestOptions = {
+    method: 'GET',
+    redirect: 'follow'
+  };
+  
+  fetch(`http://localhost:3000/token?address=${account}`, requestOptions)
+    .then(response => response.text())
+    .then(result => {
+      answer = JSON.parse(result);
+      tokenName = answer.nameToken;
+      tokenSymbole = answer.symboleToken;
+      tokenQty = answer.qtyToken;
+      text += `<p>Token name : ${tokenName}</p><p>Symbole : ${tokenSymbole}</p><p>Qty : ${tokenQty}</p>`
+      document.getElementById('prod_result').innerHTML = text;
+    })
+    .catch(error => console.log('error', error));
+    
 }
