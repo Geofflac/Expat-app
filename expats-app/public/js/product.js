@@ -17,6 +17,17 @@ function deposit() {
     .catch(error => console.log('error', error));;
 }
 
-function token () {
-  document.getElementById('prod_result').innerHTML = "Number of token here => connection to METAMASK required"
+function token() {
+  if (typeof window.ethereum !== 'undefined') {
+    console.log('MetaMask is installed!');
+    Account();
+  }
+  else {
+    alert("Please install MetaMask to use this dApp!");
+  }
+}
+async function Account() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  document.getElementById('prod_result').innerHTML = account;
 }
