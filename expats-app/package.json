@@ -24,12 +24,9 @@
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "node-fetch": "^2.6.2",
-<<<<<<< HEAD
     "passport": "^0.4.1",
     "passport-auth0": "^1.4.0",
     "pug": "^3.0.2",
-=======
->>>>>>> main
     "request": "^2.88.2"
   },
   "devDependencies": {
