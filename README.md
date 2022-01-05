@@ -29,6 +29,8 @@ At this stage of the course, each team member had to provide their own Dev-Ops p
 Presentation / Repository : https://github.com/Geofflac/DevOps_ShowAndTell.git
 
 ## 4 - Smart contracts
-For the last part of the course, we were introduced to smart contracts on the Ethereum network by generating ERC20 tokens. SOLIDITY language was used to create the smart contract. We created a METAMASK wallet to store those tokens. Our back-end is connected to the user METAMASK wallet and displays the wallet address.
+For the last part of the course, we were introduced to smart contracts on the Ethereum network by generating ERC20 tokens. SOLIDITY language was used to create the smart contract. We created a METAMASK wallet to store those tokens. Our back-end is connected to the user METAMASK wallet and displays the wallet address.<br />
+![image](https://user-images.githubusercontent.com/84672157/148179412-530686f3-c80c-4710-9909-1bedd5f4fa04.png)
+
 
 Presentation: https://docs.google.com/presentation/d/1LQGUGaAvPFhQKBjnmJDyguFqcyr1jOFr86YS6sHS9B0/edit?usp=sharing
