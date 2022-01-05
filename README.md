@@ -4,7 +4,9 @@ This project has been developed during the NUS FINTECH program. It was a great u
 This project was a team effort, besides the Dev-Ops part.<br />
  <br />
 In a few lines, our project was to develop an application for expats around the world. When arriving in a new country, expats have usually a set of doubts about their finances, such as how to access some services, which financial institution is the best, etc ... We wanted to provide a one-stop platform for those questions to be answered through product comparison, forum, a news feed, etc...<br />
-<div style="text-align:center">test</div>
+<p align="center">
+  ![image](https://user-images.githubusercontent.com/84672157/148177658-583251e6-564f-4104-818d-a43ade262007.png)
+</p>
 
 
 ## 1 - Design Challenge
