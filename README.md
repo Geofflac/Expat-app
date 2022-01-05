@@ -1,6 +1,6 @@
 
 # NUS FINTECH SG - PROJECT
-This project has been developed during the NUS FINTECH program. It was a great use case to apply theoretical knowledge and class exercises seen in class to develop a unique full-stack application.
+This project has been developed during the NUS FINTECH program. It was a great use case to apply theoretical knowledge and class exercises seen in class and develop a unique full-stack application.
 This project was a team effort, besides the Dev-Ops part.
 
 ## 1 - Design Challenge
@@ -13,6 +13,9 @@ Presentation: https://docs.google.com/presentation/d/1c_1ZNjsuo_TvPqNvPMRjb0A9vW
 For this part of the course, we developed our front end (HTML - CSS - JS), our Back-End (NodeJS, Express, MySQL), and connected our application to APIs, such as OCBC bank API to collect product information.
 We used tools such as POSTMAN to test our APIs and Back-End response.
 We also implemented an authentication service to our app with AUTH0.
+![image](https://user-images.githubusercontent.com/84672157/148174354-1d723103-ed5e-4416-a8a6-66b71588790e.png)
+![image](https://user-images.githubusercontent.com/84672157/148174397-319954bf-e2c3-4058-9393-99a261853152.png)
+
 GITHUB was used as a collaborative tool and stored our code.
 
 Presentation: https://docs.google.com/presentation/d/10c9M-dP8LNjVAVHHbmFdHYADUKrqHIZX0HS0Ot1ZrIc/edit?usp=sharing
@@ -23,6 +26,6 @@ At this stage of the course, each team member had to provide their own Dev-Ops p
 Presentation / Repository : https://github.com/Geofflac/DevOps_ShowAndTell.git
 
 ## 4 - Smart contracts
-For the last part of the course, we were introduced to smart contracts on the Ethereum network by generating ERC20 tokens> SOLIDITY language was used to create the smart contract. We created a METAMASK wallet to store those tokens. Our back-end is connected to the user METAMASK wallet and displays the wallet address.
+For the last part of the course, we were introduced to smart contracts on the Ethereum network by generating ERC20 tokens. SOLIDITY language was used to create the smart contract. We created a METAMASK wallet to store those tokens. Our back-end is connected to the user METAMASK wallet and displays the wallet address.
 
 Presentation: https://docs.google.com/presentation/d/1LQGUGaAvPFhQKBjnmJDyguFqcyr1jOFr86YS6sHS9B0/edit?usp=sharing
