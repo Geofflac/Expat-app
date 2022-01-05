@@ -10,10 +10,10 @@ We managed to develop a first clickable mock-up of the application (https://mock
 Presentation: https://docs.google.com/presentation/d/1c_1ZNjsuo_TvPqNvPMRjb0A9vWSglT8-4oWN3m_AFAA/edit?usp=sharing
 
 ## 2 - Front-end / Back-end / APIs
-For this part of the course, we developed our front end (HTML - CSS - JS), our Back-End (NodeJS, Express, MySQL), and connected our application to APIs, such as OCBC bank API to collect product information.
-We used tools such as POSTMAN to test our APIs and Back-End response.
-We also implemented an authentication service to our app with AUTH0.
-![image](https://user-images.githubusercontent.com/84672157/148174354-1d723103-ed5e-4416-a8a6-66b71588790e.png)
+For this part of the course, we developed our front end (HTML - CSS - JS), our Back-End (NodeJS, Express, MySQL), and connected our application to APIs, such as OCBC bank API to collect product information.<br />
+We used tools such as POSTMAN to test our APIs and Back-End response.<br />
+We also implemented an authentication service to our app with AUTH0.<br />
+![image](https://user-images.githubusercontent.com/84672157/148174550-729d0a6d-dd7b-48b4-9fbd-807c8dc948d0.png)
 ![image](https://user-images.githubusercontent.com/84672157/148174397-319954bf-e2c3-4058-9393-99a261853152.png)
 
 GITHUB was used as a collaborative tool and stored our code.
