@@ -3,11 +3,7 @@
 This project has been developed during the NUS FINTECH program. It was a great use case to apply theoretical knowledge and class exercises seen in class and develop a unique full-stack application.
 This project was a team effort, besides the Dev-Ops part.<br />
  <br />
-In a few lines, our project was to develop an application for expats around the world. When arriving in a new country, expats have usually a set of doubts about their finances, such as how to access some services, which financial institution is the best, etc ... We wanted to provide a one-stop platform for those questions to be answered through product comparison, forum, a news feed, etc...<br />
-<p align="center">
-  ![image](https://user-images.githubusercontent.com/84672157/148177658-583251e6-564f-4104-818d-a43ade262007.png)
-</p>
-
+In a few lines, our project was to develop an application for expats around the world. When arriving in a new country, expats have usually a set of doubts about their finances, such as how to access some services, which financial institution is the best, etc ... We wanted to provide a one-stop platform for those questions to be answered through product comparison, forum, a news feed, etc...
 
 ## 1 - Design Challenge
 The first part of the course looked at how to generate ideas for a potential application using tools likes a design thinking, persona, journey map, survey, collaborative online murals (https://app.mural.co/t/nusfintechlab5100/m/nusfintechlab5100/1622022096022/44417910d4a2f8e271bbf7b44396ef2e3c7fa7c2?sender=d43fd46c-f937-4794-bb8c-ada899f0e72e), etc... and support those ideas by using a value proposition, lean canvas, cost/revenue, etc...
