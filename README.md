@@ -12,6 +12,7 @@ Presentation: https://docs.google.com/presentation/d/1c_1ZNjsuo_TvPqNvPMRjb0A9vW
 ## 2 - Front-end / Back-end / APIs
 For this part of the course, we developed our front end (HTML - CSS - JS), our Back-End (NodeJS, Express, MySQL), and connected our application to APIs, such as OCBC bank API to collect product information.<br />
 We used tools such as POSTMAN to test our APIs and Back-End response.<br />
+![image](https://user-images.githubusercontent.com/84672157/148175172-6063f2ad-f514-4482-b922-f272f7146834.png)
 We also implemented an authentication service to our app with AUTH0.<br />
 ![image](https://user-images.githubusercontent.com/84672157/148174550-729d0a6d-dd7b-48b4-9fbd-807c8dc948d0.png)
 ![image](https://user-images.githubusercontent.com/84672157/148174397-319954bf-e2c3-4058-9393-99a261853152.png)
