@@ -16,6 +16,10 @@ For this part of the course, we developed our front end (HTML - CSS - JS), our B
 ![image](https://user-images.githubusercontent.com/84672157/148179007-d55c969d-0e77-457f-9a67-a92e0f491093.png)<br />
 We used tools such as POSTMAN to test our APIs and Back-End response.<br />
 ![image](https://user-images.githubusercontent.com/84672157/148175172-6063f2ad-f514-4482-b922-f272f7146834.png)<br />
+APIs answers were processed by our back-end and then sent to the front-end<br />
+![image](https://user-images.githubusercontent.com/84672157/148505580-a6f8ee70-5bdf-45e2-8f06-825f2812e97a.png)
+![image](https://user-images.githubusercontent.com/84672157/148505608-c5826508-cdc5-4fda-9d09-dcb87e31ab4d.png)
+
 We also implemented an authentication service to our app with AUTH0.<br />
 ![image](https://user-images.githubusercontent.com/84672157/148174550-729d0a6d-dd7b-48b4-9fbd-807c8dc948d0.png)
 ![image](https://user-images.githubusercontent.com/84672157/148174397-319954bf-e2c3-4058-9393-99a261853152.png)<br />
