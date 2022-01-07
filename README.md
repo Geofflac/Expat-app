@@ -18,7 +18,7 @@ We used tools such as POSTMAN to test our APIs and Back-End response.<br />
 ![image](https://user-images.githubusercontent.com/84672157/148175172-6063f2ad-f514-4482-b922-f272f7146834.png)<br />
 APIs answers were processed by our back-end and then sent to the front-end<br />
 ![image](https://user-images.githubusercontent.com/84672157/148505580-a6f8ee70-5bdf-45e2-8f06-825f2812e97a.png)
-![image](https://user-images.githubusercontent.com/84672157/148505608-c5826508-cdc5-4fda-9d09-dcb87e31ab4d.png)
+![image](https://user-images.githubusercontent.com/84672157/148505670-83fd2386-c38f-43ad-87c4-c9b145c6d60b.png)
 
 We also implemented an authentication service to our app with AUTH0.<br />
 ![image](https://user-images.githubusercontent.com/84672157/148174550-729d0a6d-dd7b-48b4-9fbd-807c8dc948d0.png)
